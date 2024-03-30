@@ -146,3 +146,4 @@ figures_test/
 carbon_data_test/
 Test-Configs/
 carbon_savings_test.ipynb
+generated_figures/

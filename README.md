@@ -1,5 +1,7 @@
 # GreenSKU Carbon Model
 
+[![DOI](https://zenodo.org/badge/779488355.svg)](https://zenodo.org/doi/10.5281/zenodo.10896254)
+
 This repository contains the GreenSKU Carbon Model, a tool for estimating the carbon emissions of a server Stock Keeping Unit (SKU) over its lifetime. **To evaluate the artifact, you can skip to the [Getting Started](#getting-started-instructions) section and follow the preceding instructions.**
 
 The main model logic is implemented in `src/carbon_model.py`. The model is used to estimate the carbon emissions of a server SKU over its lifetime, given server design inputs which are defined based on server configuration files. Such configuration files that are used in the paper are located in the `server_configs/` directory. The input data used to calculate the carbon emissions, such as per-component power and embodied emissions, are located in the `data/` directory. We provide open-sourced estimations of the required data for each component in the `data/carbon_data` directory; however, this data can be replaced with more accurate/specific data if available. For more information, see the [paper](https://github.com/STAR-Research/GreenSKU-Model.git).
