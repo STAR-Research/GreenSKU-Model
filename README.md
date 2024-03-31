@@ -87,7 +87,7 @@ Here is a table with figures/results to reproduce and the expected run time to p
 | Result in paper to reproduce | Run time | Output file(s) | 
 | --- | --- | --- |
 | [Last three columns of Table V](figures/paper_figures_original/Table_V.csv) | < 1 minute | [`figures/generated_figures/Table_V.csv`](figures/generated_figures/Table_V.csv) |
-| Appendix A.C claim: "We re-calculate the average cluster-level savings to find an average of **15%**..." | < 1 minute | [`figures/generated_figures/cluster_savings.txt`](figures/generated_figures/cluster_savings.txt) (and `carbon_savings.ipynb` cell print output) |
+| Appendix A-D claim: "We re-calculate the average cluster-level savings to find an average of **15%**..." | < 1 minute | [`figures/generated_figures/cluster_savings.txt`](figures/generated_figures/cluster_savings.txt) (and `carbon_savings.ipynb` cell print output) |
 | Appendix A-D claim: "... leading to an overall data center-level savings of **8\%**." | < 1 minute | [`figures/generated_figures/dc_savings.txt`](figures/generated_figures/dc_savings.txt) (and `carbon_savings.ipynb` cell print output) |
 | [Figure 12](figures/paper_figures_original/Figure_12.png) | 1 minute | [`figures/generated_figures/Figure_12.png`](figures/generated_figures/Table_V.csv) |
 
